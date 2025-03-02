@@ -57,9 +57,12 @@ sacp_disconnect(conn: socket.socket, timeout: float): Disconnects from the devic
 sacp_send_command(...): Sends commands and waits for a valid response.
 Additional functions handle module info retrieval, submodule parsing, homing, and temperature commands.
 ## Customization
-### IP Address: The printer's IP address is now input by the user at startup.
-### Commands: To change which commands are sent (e.g., setting temperatures), modify or uncomment the corresponding function calls in the main() function.
-### Timeouts and Ports: Adjust SACP_TIMEOUT and SACP_PORT at the beginning of the script if needed.
+### IP Address:
+The printer's IP address is now input by the user at startup.
+### Commands:
+To change which commands are sent (e.g., setting temperatures), modify or uncomment the corresponding function calls in the main() function.
+### Timeouts and Ports:
+Adjust SACP_TIMEOUT and SACP_PORT at the beginning of the script if needed.
 ## License
 This project is provided "as-is" without any warranty. See the LICENSE file for details if available.
 
