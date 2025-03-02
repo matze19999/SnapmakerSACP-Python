@@ -12,28 +12,24 @@ Python 3.x
 Network connectivity to the Snapmaker device on the specified IP address and port (default port: 8888).
 ## Installation
 ### Clone the Repository:
-
-bash
-Kopieren
+```
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
+```
 ### Ensure Python 3 is installed:
-
-bash
-Kopieren
+```
 python3 --version
+```
 ### (Optional) Create and activate a virtual environment:
-
-bash
-Kopieren
+```
 python3 -m venv venv
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+```
 ## Usage
 ### Run the script:
-
-bash
-Kopieren
+```
 ./your_script.py
+```
 ### Enter the Printer's IP Address:
 
 When prompted, input the IP address of your Snapmaker device (e.g., 10.1.1.86).
