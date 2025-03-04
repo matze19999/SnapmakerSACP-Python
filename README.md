@@ -13,8 +13,8 @@ Network connectivity to the Snapmaker device on the specified IP address and por
 ## Installation
 ### Clone the Repository:
 ```
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/matze19999/SnapmakerSACP-Python.git
+cd SnapmakerSACP-Python
 ```
 ### Ensure Python 3 is installed:
 ```
@@ -28,7 +28,7 @@ source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 ## Usage
 ### Run the script:
 ```
-./your_script.py
+./main.py
 ```
 ### Enter the Printer's IP Address:
 
